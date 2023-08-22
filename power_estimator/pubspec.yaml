@@ -1,0 +1,34 @@
+name: power_estimator
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Technion_logo.svg
+    - assets/Technion_logo.svg.png
+
+flutter_launcher_icons:
+  image_path: "assets/Technion_logo.svg.png" 
+  android: true
+  ios: true
+  # optionally, as transparency is not allowed on app store
+  remove_alpha_ios: true
+
+flutter_launcher_name:
+  name: "Power Estimator"  
